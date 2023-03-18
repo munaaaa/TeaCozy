@@ -1,0 +1,2 @@
+# TeaCozy
+Code Academy Project
