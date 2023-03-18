@@ -1,3 +1,33 @@
 * {
     background-color: black;
 }
+
+.logo {
+    max-height: 50px;
+    color: seashell;
+    margin-left: 10px;
+    
+}
+
+.header {
+    max-height: 65px;
+    border-bottom: 1px solid gray;  
+}
+
+.background {
+    height: 700px;
+    width: 1200px;
+    background-image: url(./background.jpeg);
+    margin: 0 auto;
+    
+}
+
+.bgtext {
+    color: seashell;
+    position: absolute;
+    display: inline;
+    top: 350px;
+    width: 1200px;
+    text-align: center;
+}
+ 
