@@ -1,9 +1,13 @@
+
+/* Universal */
 * {
     background-color: black;
     font-family: helvetica;
+    font-size: 22px;
     opacity: 0.9;
 }
 
+/* Header and Background */
 .logo {
     max-height: 50px;
     color: seashell;
@@ -34,6 +38,8 @@
     text-align: center;
 }
  
+
+/* Tea of the Month section  */
 .teaofthemonth {
     color: seashell;
     padding: 30px;
@@ -52,7 +58,7 @@
 .image {
     width: 300px;
     height: 200px;
-    margin: 20px;
+    margin: 10px;
 }
 
 .container-2 {
@@ -64,3 +70,26 @@
     height: 200px;
     margin: 20px;
 }   
+
+.myrtletea {
+    display: block;
+}
+
+.fallberryblitz {
+    width: 300px; 
+
+}
+
+.spicedrum {
+    width: 300px; 
+
+}
+
+.Donut {
+    width: 300px; 
+
+}
+
+.BedfordTea {
+    width: 300px;
+}
