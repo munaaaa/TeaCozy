@@ -3,11 +3,13 @@
 * {
     background-color: black;
     font-family: helvetica;
-    font-size: 22px;
+    color: seashell;
     opacity: 0.9;
+    font-size: 22px;
 }
 
-/* Header and Background */
+/* Header */
+
 .logo {
     max-height: 50px;
     color: seashell;
@@ -18,7 +20,20 @@
 .header {
     max-height: 65px;
     border-bottom: 1px solid gray;  
+    display: flex;
+    width: 1200px;
+    height: 69px;
 }
+
+.headerlinks {
+    flex-direction: row;
+    text-decoration: underline;
+    display: inline-flex;
+
+}
+
+/* Our Mission */
+
 
 .backgroundimg {
     max-height: 700px;
@@ -76,8 +91,7 @@
 }
 
 .fallberryblitz {
-    width: 300px; 
-
+    width: 300px;
 }
 
 .spicedrum {
@@ -92,4 +106,57 @@
 
 .BedfordTea {
     width: 300px;
+}
+
+
+/* Locations  */
+
+
+
+.location-container {
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./locations.jpeg);
+}
+
+.downtown {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    line-height: 2;
+}
+
+.eastbayside {
+    width: 300px;
+    height: 300px;
+    margin: 20px;  
+    line-height: 2;
+}
+
+.oakdale {
+    width: 300px;
+    height: 300px;
+    margin: 20px;   
+    line-height: 2;
+}
+
+.location-title {
+    background-color: transparent;
+    top: 60px
+
+}
+
+/* Footer  */
+
+.footer {
+    height: 200px;
+}
+
+.copyright {
+    float: left;
 }
